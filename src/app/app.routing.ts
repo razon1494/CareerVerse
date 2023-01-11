@@ -121,8 +121,8 @@ export const appRoutes: Route[] = [
             {
                 path: 'example',
                 loadChildren: () =>
-                    import('app/modules/admin/example/example.module').then(
-                        (m) => m.ExampleModule
+                    import('app/modules/landing/home/home.module').then(
+                        (m) => m.LandingHomeModule
                     ),
             },
         ],
