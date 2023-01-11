@@ -1,0 +1,17 @@
+.account-form {
+    position: absolute;
+    .account-title {
+        font-size: 26px;
+        font-weight: 800;
+    }
+}
+.side-img {
+    background-color: #989898;
+    min-height: 700px;
+    // position: absolute;
+    img {
+        position: relative;
+        left: -8rem;
+        top: 2rem;
+    }
+}

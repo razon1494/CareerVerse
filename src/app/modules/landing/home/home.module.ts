@@ -7,12 +7,20 @@ import { LandingHomeComponent } from 'app/modules/landing/home/home.component';
 import { landingHomeRoutes } from 'app/modules/landing/home/home.routing';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { SelectUserComponent } from './select-user/select-user.component';
+import { HeaderComponent } from './header/header.component';
+import { CreateAccountComponent } from './create-account/create-account.component';
+import { ChooseComponent } from './choose/choose.component';
 
 @NgModule({
     declarations: [
         LandingHomeComponent,
         NavbarComponent,
-        FooterComponent
+        FooterComponent,
+        SelectUserComponent,
+        HeaderComponent,
+        CreateAccountComponent,
+        ChooseComponent
     ],
     imports     : [
         RouterModule.forChild(landingHomeRoutes),

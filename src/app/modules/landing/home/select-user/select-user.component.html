@@ -1,0 +1,19 @@
+<div class="flex flex-col flex-auto min-w-0 bg-white user-page">
+    <app-header></app-header>
+    <section class="container user-wrapper  ">
+        <h2 class="text-center title mb-12 ">Who Are You?</h2>
+        <div class="flex items-center justify-center card-box ">
+            <div class="learner-card card border rounded-md px-8 py-4 mx-16">
+                <img src="../../../../../assets/images/ui/Home/user.png" alt="Learner">
+                <h2 class="text-center card-title">Learner</h2>
+            </div>
+            <div class="admin-card card border rounded-md px-8 py-4 mx-16" [routerLink]="['/home/createaccount']">
+                <img src="../../../../../assets/images/ui/Home/admin.png" alt="Admin">
+                <h2 class="text-center card-title">Admin</h2>
+            </div>
+        </div>
+        <p class="text-center underline underline-offset-2 mt-8">Need Help?</p>
+        <p class="text-center underline underline-offset-2 mt-8">Go Back</p>
+    </section>
+    <app-footer></app-footer>
+</div>
