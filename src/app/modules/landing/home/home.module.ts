@@ -11,6 +11,7 @@ import { SelectUserComponent } from './select-user/select-user.component';
 import { HeaderComponent } from './header/header.component';
 import { CreateAccountComponent } from './create-account/create-account.component';
 import { ChooseComponent } from './choose/choose.component';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { ChooseComponent } from './choose/choose.component';
         SelectUserComponent,
         HeaderComponent,
         CreateAccountComponent,
-        ChooseComponent
+        ChooseComponent,
+        CareerComponent
     ],
     imports     : [
         RouterModule.forChild(landingHomeRoutes),
